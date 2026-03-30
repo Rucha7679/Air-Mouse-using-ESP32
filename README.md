@@ -79,7 +79,7 @@ if (abs(gx) < 0.5) gx = 0;
 if (abs(gy) < 0.5) gy = 0;
 ```
 
-System Architecture
+## System Architecture
 ```mermaid
 flowchart TD
     A[MPU6050 IMU] -->|I2C| B[ESP32]
@@ -91,6 +91,6 @@ flowchart TD
     G --> H[Threshold Detection → Left Click Event]
 ```
 
-Acknowledgements
-Adafruit Industries — MPU6050 and Unified Sensor libraries
-T-vK — ESP32 BLE Mouse library
+## Acknowledgements
+- Adafruit Industries — MPU6050 and Unified Sensor libraries
+- T-vK — ESP32 BLE Mouse library
