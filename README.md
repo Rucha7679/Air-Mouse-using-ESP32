@@ -49,7 +49,7 @@ Installation & Setup
 
 Clone the repository
 
-bash   git clone https://github.com/YOUR_USERNAME/air-mouse-esp32.git
+bash   git clone https://github.com/Rucha7679/air-mouse-esp32.git
    cd air-mouse-esp32
 
 Open the sketch — Launch blemouse.ino in the Arduino IDE.
